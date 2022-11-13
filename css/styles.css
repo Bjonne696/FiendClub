@@ -3,6 +3,42 @@ body {
     margin: 0px;
 }
 
+main {
+    background: 
+    linear-gradient(
+    to top right,
+    #c43c3c,
+    #c43c3c 20%,
+    #000000 20%, 
+    #000000 40%,
+    #c43c3c 40%,
+    #c43c3c 60%,
+    #000000 60%,
+    #000000 80%,
+    #c43c3c 80%);
+    text-align: center;
+    width: 100%;
+    min-height:100vh;
+  }
+
+.inverted {
+    background: 
+    linear-gradient(
+    to top left,
+    #c43c3c,
+    #c43c3c 20%,
+    #000000 20%, 
+    #000000 40%,
+    #c43c3c 40%,
+    #c43c3c 60%,
+    #000000 60%,
+    #000000 80%,
+    #c43c3c 80%);
+    text-align: center;
+    width: 100%;
+    min-height:100vh;
+}
+
 
   /* Nav */
 
@@ -56,41 +92,7 @@ header {
 
   /* Home */
 
-  main {
-    background: 
-    linear-gradient(
-    to top right,
-    #c43c3c,
-    #c43c3c 20%,
-    #000000 20%, 
-    #000000 40%,
-    #c43c3c 40%,
-    #c43c3c 60%,
-    #000000 60%,
-    #000000 80%,
-    #c43c3c 80%);
-    text-align: center;
-    width: 100%;
-    min-height:100vh;
-  }
 
-.inverted {
-    background: 
-    linear-gradient(
-    to top left,
-    #c43c3c,
-    #c43c3c 20%,
-    #000000 20%, 
-    #000000 40%,
-    #c43c3c 40%,
-    #c43c3c 60%,
-    #000000 60%,
-    #000000 80%,
-    #c43c3c 80%);
-    text-align: center;
-    width: 100%;
-    min-height:100vh;
-}
 
 .home-text {
     border: 5px solid #E9FA00
@@ -116,3 +118,14 @@ header {
     border: 5px solid #E9FA00;
 }
 
+
+/* About */
+
+.band-member {
+    display: flex;
+    align-items:center;
+ }
+
+ h1 {
+    color: aqua;
+ }
