@@ -57,7 +57,7 @@ h1 {
   font-family: shlop, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 4vw;
+  font-size: 4vh;
   border: 5px solid #00000000;
   color: #782E8C;
   text-shadow: -1px 0 #E9FA00, 0 1px #E9FA00, 1px 0 #E9FA00, 0 -1px #E9FA00;
@@ -65,14 +65,14 @@ h1 {
 }
 
 h2 {
-  font-size: 3vw;
+  font-size: 4vh;
   font-family: ccmonstermash, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 h3 {
-  font-size:2.5vw;
+  font-size:3.5vw;
   font-family: totally-gothic, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -82,7 +82,7 @@ p {
   font-family: bradley-djr, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 2vh;
+  font-size: 3vh;
   text-shadow: #E9FA00  0 -2px;
 }
 
@@ -151,6 +151,10 @@ header {
     border-radius: 25px;
     box-shadow: 5px 5px 20px 5px #E9FA00;
     max-width: 80vw;
+}
+
+.album {
+  max-width: 35vw;
 }
 
 .member-container {
