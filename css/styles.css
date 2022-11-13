@@ -1,3 +1,11 @@
+
+body {
+    margin: 0px;
+}
+
+
+  /* Nav */
+
 header {
     background-color: #c43c3c;
     height: 15vh;
@@ -46,6 +54,8 @@ header {
     right: 10vw;
   }
 
+  /* Home */
+
   main {
     background: 
     linear-gradient(
@@ -66,6 +76,6 @@ header {
 
   }
 
-body {
-    margin: 0px;
+.member-container {
+    border:5px solid #E9FA00
 }
