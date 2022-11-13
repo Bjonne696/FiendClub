@@ -1,4 +1,4 @@
-.header {
+header {
     background-color: #465e94;
     height: 15vh;
     display: flex;
@@ -35,3 +35,14 @@
     color: #E9FA00;
     text-shadow: 5px 5px 5px #000000;
   }
+
+  li {
+    float: left;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
