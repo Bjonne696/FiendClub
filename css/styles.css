@@ -39,10 +39,24 @@ main {
     min-height:100vh;
 }
 
+footer {
+  background-color: #000000;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+color: #782E8C;
+text-shadow: -1px 0 #E9FA00, 0 1px #E9FA00, 1px 0 #E9FA00, 0 -1px #E9FA00;
+}
+
+
 h1 {
   border: 5px solid #00000000;
   color: #782E8C;
-  text-shadow: -1px 0 #AED141, 0 1px #AED141, 1px 0 #AED141, 0 -1px #AED141;
+  text-shadow: -1px 0 #E9FA00, 0 1px #E9FA00, 1px 0 #E9FA00, 0 -1px #E9FA00;
   margin: 0px;
 }
 
@@ -74,14 +88,13 @@ header {
   }
   
   .nav-item {
-    color: #c5ec86;
     margin: 50px;
   }
   
   .nav-link {
-    color: #c5ec86;
+    color:#782E8C;
     text-decoration: none;
-    text-shadow: 5px 5px 5px #000000;
+    text-shadow: -1px 0 #E9FA00, 0 1px #E9FA00, 1px 0 #E9FA00, 0 -1px #E9FA00;
   }
   
   .nav-link-current {
@@ -103,13 +116,13 @@ header {
 .home-text {
     border: 5px solid #00000000;
     color: #782E8C;
-    text-shadow: -1px 0 #AED141, 0 1px #AED141, 1px 0 #AED141, 0 -1px #AED141;
+    text-shadow: -1px 0 #E9FA00, 0 1px #E9FA00, 1px 0 #E9FA00, 0 -1px #E9FA00;
 }
 
 .member-photo {
     border: 10px solid #782E8C;
     border-radius: 25px;
-    box-shadow: 5px 5px 20px 5px #AED141;
+    box-shadow: 5px 5px 20px 5px #E9FA00;
 }
 
 .member-container {
@@ -121,15 +134,21 @@ header {
 }
 
 .disc-container {
-    border: 5px solid #E9FA00;
+    border: 5px solid #E9FA0000;
+    color: #782E8C;
+    text-shadow: -1px 0 #E9FA00, 0 1px #E9FA00, 1px 0 #E9FA00, 0 -1px #E9FA00;
+    margin-top: 20px;
 }
 
 .discography {
-    border: 5px solid #E9FA00;
+    background-color: #000000;
+    padding: 20px;
+    margin:0px;
+    border:0px;
 }
 
 
-/* About */
+/* About & Tour Dates */
 
 .box-holder {
     display: flex;
@@ -143,5 +162,42 @@ header {
 .box-info {
     margin: 50px;
     color: #782E8C;
-    text-shadow: -1px 0 #AED141, 0 1px #AED141, 1px 0 #AED141, 0 -1px #AED141;
+    text-shadow: -1px 0 #E9FA00, 0 1px #E9FA00, 1px 0 #E9FA00, 0 -1px #E9FA00;
 }
+
+/* contact */
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  color: #E9FA00;
+  border-radius: 5px;
+  padding: 20px;
+  
+} 

@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <meta name="description" content="Misfits band page FIENDCLUB.">
+    <meta name="keywords" content="Misfits, HorrorPunk, punk, horror, horror punk, fiend club, fiendclub, contact, fiendclub contact">
+    <meta name="author" content="Bjørn-Tore Moskaug Jaavall">
+    <title>FIENDCLUB::CONTACT</title>
     <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
@@ -40,12 +44,40 @@
         <img src="images/danzig.png" alt="Danzig cancer slug symbol. A sickle moon, with a lightning trough it." class="cancer-slug">
     </header>
 
-    <main class="inverted"></main>
+    <main class="inverted">
+
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="email">Email Adress</label>
+              <input type="text" id="email" name="email" placeholder="Your email adress..">
+          
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="order">Order Album</option>
+                <option value="mail">Mail</option>
+              </select>
+          
+              <label for="content">Content</label>
+              <textarea id="content" name="content" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div> 
+
+    </main>
 
 
 
     <footer>
-        
+        <h3 class="footer-text">Created by Bjørn-Tore Moskaug Jaavall</h3>
     </footer>
 </body>
 </html>
