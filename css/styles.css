@@ -3,6 +3,9 @@ body {
     margin: 0px;
 }
 
+
+
+
 main {
     background: 
     linear-gradient(
@@ -95,11 +98,15 @@ header {
 
 
 .home-text {
-    border: 5px solid #E9FA00
+    border: 5px solid #00000000;
+    color: #782E8C;
+    text-shadow: -1px 0 #AED141, 0 1px #AED141, 1px 0 #AED141, 0 -1px #AED141;
 }
 
 .member-photo {
-    border: 5px solid #E9FA00
+    border: 10px solid #782E8C;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px 5px #AED141;
 }
 
 .member-container {
@@ -123,9 +130,21 @@ header {
 
 .band-member {
     display: flex;
-    align-items:center;
- }
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 50px;
+    border: 50px solid #00000000;
+}
 
- h1 {
-    color: aqua;
- }
+.member-info {
+    margin: 50px;
+    color: #782E8C;
+    text-shadow: -1px 0 #AED141, 0 1px #AED141, 1px 0 #AED141, 0 -1px #AED141;
+}
+
+.member-image {
+    border: 10px solid #782E8C;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px 5px #AED141;
+}
