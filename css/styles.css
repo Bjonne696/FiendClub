@@ -57,7 +57,7 @@ h1 {
   font-family: shlop, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 55px;
+  font-size: 4vw;
   border: 5px solid #00000000;
   color: #782E8C;
   text-shadow: -1px 0 #E9FA00, 0 1px #E9FA00, 1px 0 #E9FA00, 0 -1px #E9FA00;
@@ -65,14 +65,14 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 3vw;
   font-family: ccmonstermash, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 h3 {
-  font-size:30px;
+  font-size:2.5vw;
   font-family: totally-gothic, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -82,7 +82,7 @@ p {
   font-family: bradley-djr, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 25px;
+  font-size: 2vw;
   text-shadow: #E9FA00  0 -2px;
 }
 
@@ -101,6 +101,7 @@ header {
     position: absolute;
     top: 0.5vh;
     left: 1.5vw;
+    max-width: 10vw;
 }
 
 .nav-list {
@@ -110,11 +111,10 @@ header {
     list-style-type: none;
     border: 0px;
     margin: 10px;
-   
   }
   
   .nav-item {
-    margin: 50px;
+    margin: 25px;
   }
   
   .nav-link {
@@ -133,6 +133,7 @@ header {
     position: absolute;
     top: 0.5vh;
     right: 10vw;
+    max-width: 6vw;
   }
 
   /* Home */
@@ -149,6 +150,7 @@ header {
     border: 10px solid #782E8C;
     border-radius: 25px;
     box-shadow: 5px 5px 20px 5px #E9FA00;
+    max-width: 80vw;
 }
 
 .member-container {
@@ -189,6 +191,10 @@ header {
     margin: 50px;
     color: #782E8C;
     text-shadow: -1px 0 #E9FA00, 0 1px #E9FA00, 1px 0 #E9FA00, 0 -1px #E9FA00;
+}
+
+.posters {
+  max-width: 60vw;
 }
 
 /* contact */
