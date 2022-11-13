@@ -119,15 +119,14 @@ header {
   }
   
   .nav-link {
-    color:#782E8C;
+    color:#E9FA00;;
     text-decoration: none;
-    text-shadow: -1px 0 #E9FA00, 0 1px #E9FA00, 1px 0 #E9FA00, 0 -1px #E9FA00;
   }
   
   .nav-link-current {
     text-decoration: none;
     color: #E9FA00;
-    text-shadow: 5px 5px 5px #000000;
+    text-shadow: 8px 8px 8px #5d236d;
   }
 
   .cancer-slug {
