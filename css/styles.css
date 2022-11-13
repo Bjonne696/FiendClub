@@ -3,9 +3,6 @@ body {
     margin: 0px;
 }
 
-
-
-
 main {
     background: 
     linear-gradient(
@@ -42,6 +39,12 @@ main {
     min-height:100vh;
 }
 
+h1 {
+  border: 5px solid #00000000;
+  color: #782E8C;
+  text-shadow: -1px 0 #AED141, 0 1px #AED141, 1px 0 #AED141, 0 -1px #AED141;
+  margin: 0px;
+}
 
   /* Nav */
 
@@ -128,7 +131,7 @@ header {
 
 /* About */
 
-.band-member {
+.box-holder {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -137,14 +140,8 @@ header {
     border: 50px solid #00000000;
 }
 
-.member-info {
+.box-info {
     margin: 50px;
     color: #782E8C;
     text-shadow: -1px 0 #AED141, 0 1px #AED141, 1px 0 #AED141, 0 -1px #AED141;
-}
-
-.member-image {
-    border: 10px solid #782E8C;
-    border-radius: 25px;
-    box-shadow: 5px 5px 20px 5px #AED141;
 }
