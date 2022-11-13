@@ -69,13 +69,50 @@ header {
     #000000 60%,
     #000000 80%,
     #c43c3c 80%);
-    
     text-align: center;
     width: 100%;
     min-height:100vh;
-
   }
 
-.member-container {
-    border:5px solid #E9FA00
+.inverted {
+    background: 
+    linear-gradient(
+    to top left,
+    #c43c3c,
+    #c43c3c 20%,
+    #000000 20%, 
+    #000000 40%,
+    #c43c3c 40%,
+    #c43c3c 60%,
+    #000000 60%,
+    #000000 80%,
+    #c43c3c 80%);
+    text-align: center;
+    width: 100%;
+    min-height:100vh;
 }
+
+.home-text {
+    border: 5px solid #E9FA00
+}
+
+.member-photo {
+    border: 5px solid #E9FA00
+}
+
+.member-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.disc-container {
+    border: 5px solid #E9FA00;
+}
+
+.discography {
+    border: 5px solid #E9FA00;
+}
+
